@@ -32,7 +32,7 @@ jobs:
       - name: Build changelog, commit changes, and push
         run: |
           git config user.name "Matthew Odgers"
-          git config user.email "matthew@odgerslegal.com"
+          git config user.email "16672104+modgers@users.noreply.github.com"
           pretty_date=$(date -u +'%B %d, %Y')
 
           # Build the daily log (compares working tree against HEAD)
